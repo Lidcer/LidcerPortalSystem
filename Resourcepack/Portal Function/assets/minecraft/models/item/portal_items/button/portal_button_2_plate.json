@@ -1,0 +1,7 @@
+{
+	"__comment": "Lidcer Studio",
+	"parent": "item/portal_items/button/portal_button_1_plate_off",
+	"textures": {
+		"texture": "item/portal_items/portal_button/button_texture_2_off"
+	}
+}

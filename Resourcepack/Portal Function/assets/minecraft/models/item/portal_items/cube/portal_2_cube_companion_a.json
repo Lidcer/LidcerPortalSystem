@@ -1,0 +1,7 @@
+{
+	"__comment": "Lidcer Studio",
+	"parent": "item/portal_items/cube/portal_2_cube_storage_u",
+	"textures": {
+		"cube_texture": "item/portal_items/portal_cube/portal_2_c_a"
+	}
+}

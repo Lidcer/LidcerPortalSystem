@@ -1,0 +1,330 @@
+{
+	"__comment": "Lidcer Studio",
+	"textures": {
+		"portcalcam_full_2": "item/portal_items/portal_camera/portal_camera_2"
+	},
+	"elements": [
+		{
+			"__comment": "Cube288",
+			"from": [ 7.5001, 15.5, 9.5 ],
+			"to": [ 8.500099, 17.5, 15 ],
+			"rotation": { "origin": [ 8.5, 15.5, 15 ], "axis": "x", "angle": -45 },
+			"faces": {
+				"down": { "uv": [ 3.5, 12, 8.5, 16 ], "texture": "#portcalcam_full_2", "rotation": 180 },
+				"up": { "uv": [ 3.5, 12, 8.5, 16 ], "texture": "#portcalcam_full_2", "rotation": 180 },
+				"north": { "uv": [ 3.5, 12, 8.5, 16 ], "texture": "#portcalcam_full_2" },
+				"south": { "uv": [ 3.5, 12, 8.5, 16 ], "texture": "#portcalcam_full_2" },
+				"west": { "uv": [ 0.5, 12, 3.5, 15.5 ], "texture": "#portcalcam_full_2" },
+				"east": { "uv": [ 1, 12, 3, 15 ], "texture": "#portcalcam_full_2" }
+			}
+		},
+		{
+			"__comment": "Cube288",
+			"from": [ 7.75, 15, 14.25 ],
+			"to": [ 8.25, 16, 16.75 ],
+			"faces": {
+				"down": { "uv": [ 7.5, 0, 8.5, 1.5 ], "texture": "#portcalcam_full_2" },
+				"up": { "uv": [ 0.5, 0.5, 3.5, 3.5 ], "texture": "#portcalcam_full_2" },
+				"north": { "uv": [ 0.5, 0.5, 3.5, 3.5 ], "texture": "#portcalcam_full_2" },
+				"south": { "uv": [ 0.5, 0.5, 3.5, 3.5 ], "texture": "#portcalcam_full_2" },
+				"west": { "uv": [ 0.5, 0.5, 3.5, 3.5 ], "texture": "#portcalcam_full_2" },
+				"east": { "uv": [ 0.5, 0.5, 3.5, 3.5 ], "texture": "#portcalcam_full_2" }
+			}
+		},
+		{
+			"__comment": "Cube712",
+			"from": [ 5.5, 13.3438, 16.502 ],
+			"to": [ 7, 14.50005, 17.002 ],
+			"rotation": { "origin": [ 5.5, 14.5, 16.5 ], "axis": "z", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 90 },
+				"up": { "uv": [ 15, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 270 },
+				"north": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 270 },
+				"south": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 90 },
+				"west": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 90 },
+				"east": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 270 }
+			}
+		},
+		{
+			"__comment": "Cube712",
+			"from": [ 7, 13, 16.5 ],
+			"to": [ 9, 18, 17 ],
+			"faces": {
+				"down": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2" },
+				"up": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2" },
+				"north": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2" },
+				"south": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2" },
+				"west": { "uv": [ 12.5, 4.5, 15, 7.5 ], "texture": "#portcalcam_full_2" },
+				"east": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2" }
+			}
+		},
+		{
+			"__comment": "Cube712",
+			"from": [ 7, 12.5, 17 ],
+			"to": [ 9, 18.5, 17.5 ],
+			"faces": {
+				"down": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2" },
+				"up": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2" },
+				"north": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2" },
+				"south": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2" },
+				"west": { "uv": [ 12.5, 4.5, 15, 7.5 ], "texture": "#portcalcam_full_2" },
+				"east": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2" }
+			}
+		},
+		{
+			"__comment": "Cube712",
+			"from": [ 5, 16.5, 17 ],
+			"to": [ 6.21875, 18.03125, 17.5 ],
+			"rotation": { "origin": [ 5, 16.5, 17.5 ], "axis": "z", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 15, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 270 },
+				"up": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 90 },
+				"north": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 90 },
+				"south": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 270 },
+				"west": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 270 },
+				"east": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 90 }
+			}
+		},
+		{
+			"__comment": "Cube712",
+			"from": [ 5, 12.9688, 17 ],
+			"to": [ 6.21875, 14.50005, 17.5 ],
+			"rotation": { "origin": [ 5, 14.5, 17 ], "axis": "z", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 90 },
+				"up": { "uv": [ 15, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 270 },
+				"north": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 270 },
+				"south": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 90 },
+				"west": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 90 },
+				"east": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 270 }
+			}
+		},
+		{
+			"__comment": "Cube712",
+			"from": [ 5.4688, 17.2813, 17 ],
+			"to": [ 7.00005, 18.50005, 17.5 ],
+			"rotation": { "origin": [ 7, 18.5, 17 ], "axis": "z", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2" },
+				"up": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2" },
+				"north": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2" },
+				"south": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2" },
+				"west": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2" },
+				"east": { "uv": [ 15, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2" }
+			}
+		},
+		{
+			"__comment": "Cube712",
+			"from": [ 9.7813, 16.5, 17 ],
+			"to": [ 11.00005, 18.03125, 17.5 ],
+			"rotation": { "origin": [ 11, 16.5, 17 ], "axis": "z", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 15, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 90 },
+				"up": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 270 },
+				"north": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 90 },
+				"south": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 270 },
+				"west": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 270 },
+				"east": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 90 }
+			}
+		},
+		{
+			"__comment": "Cube712",
+			"from": [ 5.4688, 12.5, 17 ],
+			"to": [ 7.00005, 13.71875, 17.5 ],
+			"rotation": { "origin": [ 7, 12.5, 17.5 ], "axis": "z", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2" },
+				"up": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2" },
+				"north": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2" },
+				"south": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2" },
+				"west": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 180 },
+				"east": { "uv": [ 15, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Cube712",
+			"from": [ 6.3348, 13.6881, 16.5 ],
+			"to": [ 7.4598, 15.1881, 17 ],
+			"rotation": { "origin": [ 5.5, 14.5, 16.5 ], "axis": "z", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2" },
+				"up": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2" },
+				"north": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2" },
+				"south": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2" },
+				"west": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 180 },
+				"east": { "uv": [ 15, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Cube712",
+			"from": [ 9, 17.2813, 17.0002 ],
+			"to": [ 10.53125, 18.50005, 17.5002 ],
+			"rotation": { "origin": [ 9, 18.5, 17.5 ], "axis": "z", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 180 },
+				"up": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 180 },
+				"north": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 180 },
+				"south": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 180 },
+				"west": { "uv": [ 12.5, 4.5, 15, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 180 },
+				"east": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Cube712",
+			"from": [ 5, 14.5, 17.001 ],
+			"to": [ 11, 16.5, 17.501 ],
+			"faces": {
+				"down": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2" },
+				"up": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2" },
+				"north": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2" },
+				"south": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2" },
+				"west": { "uv": [ 12.5, 4.5, 15, 7.5 ], "texture": "#portcalcam_full_2" },
+				"east": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2" }
+			}
+		},
+		{
+			"__comment": "Cube712",
+			"from": [ 5.5, 14.5, 16.501 ],
+			"to": [ 10.5, 16.5, 17.001 ],
+			"faces": {
+				"down": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2" },
+				"up": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2" },
+				"north": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2" },
+				"south": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2" },
+				"west": { "uv": [ 12.5, 4.5, 15, 7.5 ], "texture": "#portcalcam_full_2" },
+				"east": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2" }
+			}
+		},
+		{
+			"__comment": "Cube712",
+			"from": [ 9, 12.5, 17 ],
+			"to": [ 10.53125, 13.71875, 17.5 ],
+			"rotation": { "origin": [ 9, 12.5, 17 ], "axis": "z", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 180 },
+				"up": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 180 },
+				"north": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 180 },
+				"south": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 180 },
+				"west": { "uv": [ 12.5, 4.5, 15, 7.5 ], "texture": "#portcalcam_full_2" },
+				"east": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2" }
+			}
+		},
+		{
+			"__comment": "Cube712",
+			"from": [ 9.7813, 12.9688, 17.0003 ],
+			"to": [ 11.00005, 14.50005, 17.5003 ],
+			"rotation": { "origin": [ 11, 14.5, 17.5 ], "axis": "z", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 270 },
+				"up": { "uv": [ 15, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 90 },
+				"north": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 270 },
+				"south": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 90 },
+				"west": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 90 },
+				"east": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 270 }
+			}
+		},
+		{
+			"__comment": "Cube712",
+			"from": [ 9, 13, 16.5 ],
+			"to": [ 10.15625, 14.5, 17 ],
+			"rotation": { "origin": [ 9, 13, 16.5 ], "axis": "z", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 180 },
+				"up": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 180 },
+				"north": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 180 },
+				"south": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 180 },
+				"west": { "uv": [ 12.5, 4.5, 15, 7.5 ], "texture": "#portcalcam_full_2" },
+				"east": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2" }
+			}
+		},
+		{
+			"__comment": "Cube712",
+			"from": [ 9.0001, 13.375, 16.5 ],
+			"to": [ 10.5001, 14.5, 17 ],
+			"rotation": { "origin": [ 10.5, 14.5, 17 ], "axis": "z", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 270 },
+				"up": { "uv": [ 15, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 90 },
+				"north": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 270 },
+				"south": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 90 },
+				"west": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 90 },
+				"east": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 270 }
+			}
+		},
+		{
+			"__comment": "Cube712",
+			"from": [ 9, 16.5, 16.503 ],
+			"to": [ 10.5, 17.65625, 17.003 ],
+			"rotation": { "origin": [ 10.5, 16.5, 16.5 ], "axis": "z", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 15, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 90 },
+				"up": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 270 },
+				"north": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 90 },
+				"south": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 270 },
+				"west": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 270 },
+				"east": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 90 }
+			}
+		},
+		{
+			"__comment": "Cube712",
+			"from": [ 8.5402, 15.8119, 16.5 ],
+			"to": [ 9.6652, 17.3119, 17 ],
+			"rotation": { "origin": [ 10.5, 16.5, 16.5 ], "axis": "z", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 180 },
+				"up": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 180 },
+				"north": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 180 },
+				"south": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 180 },
+				"west": { "uv": [ 12.5, 4.5, 15, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 180 },
+				"east": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Cube712",
+			"from": [ 5.8437, 16.5, 16.5 ],
+			"to": [ 6.99995, 18, 17 ],
+			"rotation": { "origin": [ 7, 18, 16.5 ], "axis": "z", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2" },
+				"up": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2" },
+				"north": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2" },
+				"south": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2" },
+				"west": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2" },
+				"east": { "uv": [ 15, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2" }
+			}
+		},
+		{
+			"__comment": "Cube712",
+			"from": [ 6.1881, 16.0402, 16.5 ],
+			"to": [ 7.6881, 17.1652, 17 ],
+			"rotation": { "origin": [ 7, 18, 16.5 ], "axis": "z", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 15, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 270 },
+				"up": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 90 },
+				"north": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 90 },
+				"south": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 270 },
+				"west": { "uv": [ 12.5, 4.5, 15.5, 7.5 ], "texture": "#portcalcam_full_2", "rotation": 270 },
+				"east": { "uv": [ 15.5, 7.5, 12.5, 4.5 ], "texture": "#portcalcam_full_2", "rotation": 90 }
+			}
+		},
+		{
+			"__comment": "Cube288",
+			"from": [ 7.75, 8, 10.5 ],
+			"to": [ 8.25, 12.25, 11 ],
+			"faces": {
+				"down": { "uv": [ 4.5, 12.5, 7.5, 15.5 ], "texture": "#portcalcam_full_2" },
+				"up": { "uv": [ 4.5, 12.5, 7.5, 15.5 ], "texture": "#portcalcam_full_2" },
+				"north": { "uv": [ 4.5, 12.5, 7.5, 15.5 ], "texture": "#portcalcam_full_2" },
+				"south": { "uv": [ 4.5, 12.5, 7.5, 15.5 ], "texture": "#portcalcam_full_2" },
+				"west": { "uv": [ 4.5, 12.5, 7.5, 15.5 ], "texture": "#portcalcam_full_2" },
+				"east": { "uv": [ 4.5, 12.5, 7.5, 15.5 ], "texture": "#portcalcam_full_2" }
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation":  [ 0, -9, -1.9 ],
+			"scale":  [ 1.4, 1.4, 1.4 ]
+		}
+	}
+}

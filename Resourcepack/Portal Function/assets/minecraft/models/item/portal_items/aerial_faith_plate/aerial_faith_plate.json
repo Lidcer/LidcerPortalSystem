@@ -1,0 +1,39 @@
+{
+	"__comment": "Lidcer Studio",
+	"textures": {
+		"texture": "item/portal_items/portal_aerial_faith_plate/aerial_faith_plate"
+	},
+	"elements": [
+		{
+			"__comment": "Cube1",
+			"from": [ 3.8125, 0.09999999, -6.7188 ],
+			"to": [ 12.3125, 0.6, 20.7812 ],
+			"faces": {
+				"down": { "uv": [ 14, 0, 16, 2 ], "texture": "#texture" },
+				"up": { "uv": [ 2.5, 5.5, 12, 9 ], "texture": "#texture", "rotation": 270 },
+				"north": { "uv": [ 13.5, 0, 16, 2 ], "texture": "#texture" },
+				"south": { "uv": [ 13.5, 0, 16, 3 ], "texture": "#texture" },
+				"west": { "uv": [ 13.5, 0, 16, 2.5 ], "texture": "#texture" },
+				"east": { "uv": [ 14, 0, 16, 2.5 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Cube1",
+			"from": [ 4.75, -15.75, -5.75 ],
+			"to": [ 12.25, 0.25, 20.25 ],
+			"faces": {
+				"down": { "uv": [ 14, 0, 16, 4.5 ], "texture": "#texture" },
+				"up": { "uv": [ 14.5, 0, 16, 2 ], "texture": "#texture", "rotation": 270 },
+				"north": { "uv": [ 12.25, 11.21875, 16, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 16, 11.21875, 12.25, 16 ], "texture": "#texture" },
+				"west": { "uv": [ 9.65625, 9.21875, 0, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 9.21875, 9.65625, 16 ], "texture": "#texture" }
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"scale":  [ 1.6, 1.6, 1.6 ]
+		}
+	}
+}

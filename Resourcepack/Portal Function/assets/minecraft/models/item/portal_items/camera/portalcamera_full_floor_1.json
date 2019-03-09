@@ -1,0 +1,11 @@
+{
+	"__comment": "Lidcer Studio",
+	"parent": "item/portal_items/camera/portalcamera_full_1",
+	"display": {
+		"head": {
+			"rotation":  [ 0, 0, 90 ],
+			"translation":  [ 0, -40, 0 ],
+			"scale":  [ 1.4, 1.4, 1.4 ]
+		}
+	}
+}
