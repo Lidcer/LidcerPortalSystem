@@ -1,0 +1,1 @@
+rename folder armorstand1 to armorstand if you want to disable armorstand texture
