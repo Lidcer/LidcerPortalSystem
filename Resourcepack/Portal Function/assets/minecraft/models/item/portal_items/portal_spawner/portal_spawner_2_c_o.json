@@ -1,0 +1,8 @@
+{
+	"__comment": "Lidcer Studio",
+	"parent": "item/portal_items/portal_spawner/portal_spawner_2_c",
+	"textures": {
+		"texture": "item/portal_items/portal_spawner/portal_spawner_2",
+		"portal": "item/portal_items/portal_spawner/orange_portal_emitter"
+	}
+}

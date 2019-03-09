@@ -1,0 +1,9 @@
+{
+	"__comment": "Lidcer Studio",
+	"parent": "item/portal_items/portal_door/portal_door_frame_1_p",
+	"textures": {
+		"Wall": "block/obsidian",
+		"Door_Frame": "item/portal_items/portal_door/door_frame"
+	}
+}
+

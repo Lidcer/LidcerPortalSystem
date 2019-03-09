@@ -1,0 +1,45 @@
+{
+	"__comment": "Lidcer Studio",
+	"textures": {
+		"portal": "item/portal/orange_portal_open",
+		"transparent": "item/portal/transparent"
+	},
+	"elements": [
+		{
+			"__comment": "Portal",
+			"from": [ -8, -8, 7.99 ],
+			"to": [ 24, 24, 7.991 ],
+			"faces": {
+				"down": { "uv": [ 0, 7.999001, 16, 8 ], "texture": "#transparent" },
+				"up": { "uv": [ 0, 8, 16, 8.000999 ], "texture": "#transparent" },
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#portal" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#transparent" },
+				"west": { "uv": [ 8, 0, 8.001, 16 ], "texture": "#transparent" },
+				"east": { "uv": [ 7.999, 0, 8, 16 ], "texture": "#transparent" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_lefthand": {
+			"scale":  [ 0.0001, 0.0001, 0.0001 ]
+		},
+		"firstperson_lefthand": {
+			"scale":  [ 0.0001, 0.0001, 0.0001 ]
+		},
+		"gui": {
+			"rotation":  [ 0, 180, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"head": {
+			"translation":  [ 0, -18, 0 ],
+			"scale":  [ 1.6, 1.6, 1.6 ]
+		},
+		"ground": {
+			"translation":  [ 0, 5, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"fixed": {
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		}
+	}
+}

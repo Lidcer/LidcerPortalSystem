@@ -1,0 +1,54 @@
+{
+	"__comment": "Lidcer Studio",
+	"textures": {
+		"Door_Frame": "item/portal_items/portal_door/door_frame",
+		"Door_bottom_s": "item/portal_items/portal_door/door_bottom",
+		"Door_top_s": "item/portal_items/portal_door/door_top",
+		"Door_top_n": "item/portal_items/portal_door/door_top",
+		"Door_bottom_n": "item/portal_items/portal_door/door_1"
+	},
+	"elements": [
+		{
+			"__comment": "Bottom",
+			"from": [ 5.5, -8, 0 ],
+			"to": [ 10.5, 24, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 5.5, 16, 10.5 ], "texture": "#Door_Frame", "rotation": 90 },
+				"up": { "uv": [ 0, 5.5, 16, 10.5 ], "texture": "#Door_Frame", "rotation": 270 },
+				"north": { "uv": [ 0, 16, 0, 16 ], "texture": "#Door_Frame" },
+				"south": { "uv": [ 5.5, 0, 10.5, 16 ], "texture": "#Door_Frame" },
+				"west": { "uv": [ 12, 0, 4, 16 ], "texture": "#Door_bottom_n" },
+				"east": { "uv": [ 4, 0, 12, 16 ], "texture": "#Door_bottom_n" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale":  [ 0.2, 0.2, 0.2 ]
+		},
+		"thirdperson_lefthand": {
+			"scale":  [ 0.2, 0.2, 0.2 ]
+		},
+		"firstperson_righthand": {
+			"translation":  [ 0, 3.4782, -9.043 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"firstperson_lefthand": {
+			"translation":  [ 0.0006, 3.4782, 0 ],
+			"scale":  [ 0.2, 0.2, 0.2 ]
+		},
+		"gui": {
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"head": {
+			"translation":  [ 0, 26.55, 0 ],
+			"scale":  [ 1.6, 1.6, 1.71 ]
+		},
+		"ground": {
+			"translation":  [ 0, 17.391, 0 ]
+		},
+		"fixed": {
+			"scale":  [ 0.6, 0.6, 0.6 ]
+		}
+	}
+}

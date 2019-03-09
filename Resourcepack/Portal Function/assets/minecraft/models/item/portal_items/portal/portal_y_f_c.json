@@ -1,0 +1,8 @@
+{
+	"__comment": "Lidcer Studio",
+	"parent": "item/portal_items/portal/portal_o_f_o",
+	"textures": {
+		"portal": "item/portal/yellow_portal_close",
+		"transparent": "item/portal/transparent"
+	}
+}

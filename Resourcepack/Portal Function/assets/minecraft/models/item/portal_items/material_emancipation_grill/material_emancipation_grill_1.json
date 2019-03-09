@@ -1,0 +1,32 @@
+{
+	"__comment": "Lidcer Studio",
+	"textures": {
+		"texture": "item/portal_items/portal_material_emancipation_grill/material_emancipation_grill_1_part",
+		"Transpalent": "item/portal_items/portal_material_emancipation_grill/trans"
+	},
+	"elements": [
+		{
+			"__comment": "PlaneZ3",
+			"from": [ 0, -7, 8 ],
+			"to": [ 16, 9, 8.000999 ],
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#Transpalent" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "PlaneZ3",
+			"from": [ 0, 9, 8 ],
+			"to": [ 16, 25, 8.000999 ],
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#Transpalent" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"scale":  [ 1.6, 1.6, 1.6 ]
+		}
+	}
+}

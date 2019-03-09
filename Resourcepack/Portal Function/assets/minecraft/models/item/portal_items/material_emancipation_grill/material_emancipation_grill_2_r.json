@@ -1,0 +1,14 @@
+{
+	"__comment": "Lidcer Studio",
+	"parent": "item/portal_items/material_emancipation_grill/material_emancipation_grill_1",
+	"textures": {
+		"texture": "item/portal_items/portal_material_emancipation_grill/material_emancipation_grill_2_part",
+		"Transpalent": "item/portal_items/portal_material_emancipation_grill/trans"
+		},
+	"display": {
+		"head": {
+			"rotation":  [ 0, 90, 0 ],
+			"scale":  [ 1.6, 1.6, 1.6 ]
+		}
+	}
+}

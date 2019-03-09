@@ -1,0 +1,10 @@
+{
+	"__comment": "Lidcer Studio",
+	"parent": "item/portal_items/material_emancipation_grill/material_emancipation_grill_1",
+	"display": {
+		"head": {
+			"rotation":  [ 0, 90, 0 ],
+			"scale":  [ 1.6, 1.6, 1.6 ]
+		}
+	}
+}
