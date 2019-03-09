@@ -1,0 +1,8 @@
+{
+	"__comment": "Lidcer Studio",
+	"parent": "item/portal_items/dropper/portal_dropper_2_0",
+	"textures": {
+		"texture": "item/portal_items/portal_dropper/portal_2_dropper1",
+		"Animation": "item/portal_items/portal_dropper/dropper_2_21"
+	}
+}

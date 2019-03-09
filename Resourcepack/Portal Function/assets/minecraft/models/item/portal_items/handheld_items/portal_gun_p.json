@@ -1,0 +1,7 @@
+{
+	"__comment": "Lidcer Studio",
+	"parent": "item/portal_items/handheld_items/portal_gun_y",
+	"textures": {
+		"Portal_gun_texture": "item/portal/portal_gun_purple"
+	}
+}
