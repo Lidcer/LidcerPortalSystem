@@ -1,4 +1,4 @@
-# Portal System for java edition
+# Portal System for Minecraft JAVA EDITION 1.14.x
 
 This works on JAVA EDITION version of minecraft for other versions like bedrock or pocked edition I'm not sure because I've never tested. 
 
