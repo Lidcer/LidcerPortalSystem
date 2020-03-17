@@ -1,4 +1,3 @@
-
 function mapmaker:portal_camera/portalcamera
 function mapmaker:portal_material_emacipation_grill/materialemancipationgrill
 function mapmaker:portal_emitter/portalemitter

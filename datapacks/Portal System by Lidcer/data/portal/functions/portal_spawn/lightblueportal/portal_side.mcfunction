@@ -2,7 +2,7 @@ execute as @e[tag=lightbluep,tag=portalambientloop] at @s if score Sound config 
 execute as @e[tag=lightbluep,tag=portalambientloop] at @s if score Sound config matches 2 run playsound minecraft:portal_close_2 ambient @a ~ ~ ~
 kill @e[tag=lightbluep,tag=!portal_checker]
 kill @e[tag=lightblueg]
-summon armor_stand ^ ^-1.2 ^-0.492 {Invisible:1b,Invulnerable:1b,PersistenceRequired:1b,NoBasePlate:1b,NoGravity:1b,ArmorItems:[{},{},{},{}],HandItems:[{},{}],DisabledSlots:2037535,Tags:["portal","portalambientloop","side","lightblueportal","lightbluep","hoverignore"]}
+summon armor_stand ^ ^-1.2 ^-0.492 {Invisible:1b,Invulnerable:1b,NoBasePlate:1b,NoGravity:1b,ArmorItems:[{},{},{},{}],HandItems:[{},{}],DisabledSlots:2037535,Tags:["portal","portalambientloop","side","lightblueportal","lightbluep","hoverignore"]}
 
 execute as @e[tag=portal_checker_side,tag=lightblue] at @s run tp @e[tag=lightblueportal] @e[tag=diagonal,sort=nearest,limit=1]
 execute as @e[tag=portal_checker_side,tag=lightblue] at @s run tp @e[tag=lightblueportal] ^ ^ ^0.5

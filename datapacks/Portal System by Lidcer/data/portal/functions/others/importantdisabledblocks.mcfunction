@@ -12,7 +12,6 @@
 #																								#
 #################################################################################################
 
-
 execute as @e[tag=portal_checker] at @s if block ^ ^ ^-1 minecraft:grass run function portal:others/portal_invalid_surface
 execute as @e[tag=portal_checker] at @s if block ^ ^ ^-1 minecraft:barrier run function portal:others/portal_invalid_surface
 execute as @e[tag=portal_checker] at @s if block ^ ^ ^-1 iron_bars run function portal:others/portal_invalid_surface
@@ -144,14 +143,14 @@ execute as @e[tag=portal_checker] at @s if block ^ ^ ^-1 spawner run function po
 execute as @e[tag=portal_checker] at @s if block ^ ^ ^-1 redstone_wire run function portal:others/portal_invalid_surface
 execute as @e[tag=portal_checker] at @s if block ^ ^ ^-1 chest run function portal:others/portal_invalid_surface
 execute as @e[tag=portal_checker] at @s if block ^ ^ ^-1 wheat run function portal:others/portal_invalid_surface
-execute as @e[tag=portal_checker] at @s if block ^ ^ ^-1 sign run function portal:others/portal_invalid_surface
+execute as @e[tag=portal_checker] at @s if block ^ ^ ^-1 #signs run function portal:others/portal_invalid_surface
 execute as @e[tag=portal_checker] at @s if block ^ ^ ^-1 oak_door run function portal:others/portal_invalid_surface
 execute as @e[tag=portal_checker] at @s if block ^ ^ ^-1 iron_door run function portal:others/portal_invalid_surface
 execute as @e[tag=portal_checker] at @s if block ^ ^ ^-1 fire run function portal:others/portal_invalid_surface
 
 execute as @e[tag=portal_checker] at @s if block ^ ^ ^-1 rail run function portal:others/portal_invalid_surface
 execute as @e[tag=portal_checker] at @s if block ^ ^ ^-1 ladder run function portal:others/portal_invalid_surface
-execute as @e[tag=portal_checker] at @s if block ^ ^ ^-1 wall_sign run function portal:others/portal_invalid_surface
+execute as @e[tag=portal_checker] at @s if block ^ ^ ^-1 #wall_signs run function portal:others/portal_invalid_surface
 execute as @e[tag=portal_checker] at @s if block ^ ^ ^-1 lever run function portal:others/portal_invalid_surface
 execute as @e[tag=portal_checker] at @s if block ^ ^ ^-1 stone_pressure_plate run function portal:others/portal_invalid_surface
 execute as @e[tag=portal_checker] at @s if block ^ ^ ^-1 cactus run function portal:others/portal_invalid_surface
@@ -173,11 +172,8 @@ execute as @e[tag=portal_checker] at @s if block ^ ^ ^-1 nether_portal run funct
 execute as @e[tag=portal_checker] at @s if block ^ ^ ^-1 cake run function portal:others/portal_invalid_surface
 execute as @e[tag=portal_checker] at @s if block ^ ^ ^-1 repeater run function portal:others/portal_invalid_surface
 
-
 execute as @e[tag=portal_checker] at @s if block ^ ^ ^-1 water run function portal:others/portal_invalid_surface
 execute as @e[tag=portal_checker] at @s if block ^ ^ ^-1 lava run function portal:others/portal_invalid_surface
 
-
-
-
-
+execute as @e[tag=portal_checker] at @s if block ^ ^ ^-1 chorus_plant run function portal:others/portal_invalid_surface
+execute as @e[tag=portal_checker] at @s if block ^ ^ ^-1 chorus_flower run function portal:others/portal_invalid_surface

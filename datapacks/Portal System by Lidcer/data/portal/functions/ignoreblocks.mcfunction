@@ -14,7 +14,7 @@
 
 
 execute as @e[tag=checker] at @s if block ^ ^ ^2 iron_bars run function portal:others/fakeair
-execute as @e[tag=checker] at @s if block ^ ^ ^2 iron_bars run function portal:others/fakeair
+#execute as @e[tag=checker] at @s if block ^ ^ ^2 iron_bars run function portal:others/fakeair
 
 
 

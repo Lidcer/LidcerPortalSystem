@@ -82,7 +82,7 @@ execute as @e[tag=TPblue] at @s if entity @e[type=minecraft:armor_stand,tag=VELO
 
 execute as @e[tag=TPblue] at @s if entity @e[type=minecraft:armor_stand,tag=orangeportal,tag=wall] at @e[type=minecraft:armor_stand,tag=orangeportal,tag=wall] run tp @s ^ ^ ^0.6
 execute as @e[tag=TPblue] at @s if entity @e[type=minecraft:armor_stand,tag=floor,tag=orangeportal] at @e[type=minecraft:armor_stand,tag=floor,tag=orangeportal] run tp @s ~ ~1.6 ~ ~ 0
-execute as @e[tag=TPblue] at @s if entity @e[type=minecraft:armor_stand,tag=ceiling,tag=orangeportal] at @e[type=minecraft:armor_stand,tag=ceiling,tag=orangeportal] run tp @s ~ ~-1 ~ ~ 0  
+execute as @e[tag=TPblue] at @s if entity @e[type=minecraft:armor_stand,tag=ceiling,tag=orangeportal] at @e[type=minecraft:armor_stand,tag=ceiling,tag=orangeportal] run tp @s ~ ~-1 ~ ~ 0
 
 execute as @e[tag=TPblue] at @e[type=minecraft:armor_stand,tag=orangeportal] if score Sound config matches 1 run playsound minecraft:portal_exit_1 ambient @a ~ ~ ~ 0.2
 execute as @e[tag=TPblue] at @e[type=minecraft:armor_stand,tag=orangeportal] if score Sound config matches 2 run playsound minecraft:portal_exit_2 ambient @a ~ ~ ~ 0.2
@@ -90,7 +90,7 @@ execute as @e[tag=TPblue] at @e[type=minecraft:armor_stand,tag=orangeportal] if 
 
 #WORMHOLE SPEED CONTROL
 ##########################################################################################################################################################################################################################################################
-execute as @a[tag=TPblue] at @s if score Velocity config matches 1 unless entity @e[type=minecraft:armor_stand,tag=VELO] unless entity @e[type=minecraft:armor_stand,tag=blueportal,tag=wall] run summon armor_stand ^ ^ ^ {Invisible:1b,Invulnerable:1b,PersistenceRequired:1b,NoBasePlate:1b,NoGravity:0b,ShowArms:1b,Marker:0b,Tags:["VELO","hoverignore"]}
+execute as @a[tag=TPblue] at @s if score Velocity config matches 1 unless entity @e[type=minecraft:armor_stand,tag=VELO] unless entity @e[type=minecraft:armor_stand,tag=blueportal,tag=wall] run summon armor_stand ^ ^ ^ {Invisible:1b,Invulnerable:1b,NoBasePlate:1b,NoGravity:0b,ShowArms:1b,Marker:0b,Tags:["VELO","hoverignore"]}
 execute as @a[tag=TPblue] at @s if score Velocity config matches 1 unless entity @e[type=minecraft:area_effect_cloud,tag=VELO] unless entity @e[type=minecraft:armor_stand,tag=blueportal,tag=wall] run summon minecraft:area_effect_cloud ^ ^ ^ {Tags:["VELO"],Duration:2147483639}
 execute as @a[tag=TPblue] if entity @e[type=minecraft:armor_stand,tag=VELO] run tag @s add TPLinkVelo
 execute unless entity @e[type=minecraft:armor_stand,tag=VELO] run tag @s remove TPLinkVelo
@@ -145,7 +145,7 @@ execute as @e[tag=TPorange] at @e[type=minecraft:armor_stand,tag=blueportal] if 
 
 #WORMHOLE SPEED CONTROL ORANGE
 ##########################################################################################################################################################################################################################################################
-execute as @a[tag=TPorange] at @s if score Velocity config matches 1 unless entity @e[type=minecraft:armor_stand,tag=VELO] unless entity @e[type=minecraft:armor_stand,tag=orangeportal,tag=wall] run summon armor_stand ^ ^ ^ {Invisible:1b,Invulnerable:1b,PersistenceRequired:1b,NoBasePlate:1b,NoGravity:0b,ShowArms:1b,Marker:0b,Tags:["VELO","hoverignore"]}
+execute as @a[tag=TPorange] at @s if score Velocity config matches 1 unless entity @e[type=minecraft:armor_stand,tag=VELO] unless entity @e[type=minecraft:armor_stand,tag=orangeportal,tag=wall] run summon armor_stand ^ ^ ^ {Invisible:1b,Invulnerable:1b,NoBasePlate:1b,NoGravity:0b,ShowArms:1b,Marker:0b,Tags:["VELO","hoverignore"]}
 execute as @a[tag=TPorange] at @s if score Velocity config matches 1 unless entity @e[type=minecraft:area_effect_cloud,tag=VELO] unless entity @e[type=minecraft:armor_stand,tag=orangeportal,tag=wall] run summon minecraft:area_effect_cloud ^ ^ ^ {Tags:["VELO"],Duration:2147483639}
 execute as @a[tag=TPorange] if entity @e[type=minecraft:armor_stand,tag=VELO] run tag @s add TPLinkVelo
 execute unless entity @e[type=minecraft:armor_stand,tag=VELO] run tag @s remove TPLinkVelo

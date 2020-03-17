@@ -1,8 +1,5 @@
 execute as @e[tag=aerialfaithplate,scores={animationtime=9}] at @s run tp @s ~ ~-1 ~
 
-
-
-
 execute as @e[type=armor_stand,tag=aerialfaithplate,tag=activated,tag=hor0,tag=ver1] at @s positioned ~ ~1 ~ run data merge entity @e[type=!player,type=!area_effect_cloud,distance=..1,tag=!aerialfaithplate,tag=!hovering,tag=!hovering1,tag=!hovering0,tag=!aerialfaithplate_base,limit=1,sort=nearest] {Motion:[0d,1d,0d]}
 execute as @e[type=armor_stand,tag=aerialfaithplate,tag=activated,tag=hor0,tag=ver2] at @s positioned ~ ~1 ~ run data merge entity @e[type=!player,type=!area_effect_cloud,distance=..1,tag=!aerialfaithplate,tag=!hovering,tag=!hovering1,tag=!hovering0,tag=!aerialfaithplate_base,limit=1,sort=nearest] {Motion:[0d,1.175d,0d]}
 execute as @e[type=armor_stand,tag=aerialfaithplate,tag=activated,tag=hor0,tag=ver3] at @s positioned ~ ~1 ~ run data merge entity @e[type=!player,type=!area_effect_cloud,distance=..1,tag=!aerialfaithplate,tag=!hovering,tag=!hovering1,tag=!hovering0,tag=!aerialfaithplate_base,limit=1,sort=nearest] {Motion:[0d,1.45d,0d]}
@@ -144,39 +141,25 @@ execute as @e[type=armor_stand,tag=aerialfaithplate,tag=activated,tag=S,tag=ver3
 execute as @e[type=armor_stand,tag=aerialfaithplate,tag=activated,tag=S,tag=ver4,tag=hor5] at @s positioned ~ ~1 ~ run data merge entity @e[type=!player,type=!area_effect_cloud,distance=..1,tag=!aerialfaithplate,tag=!hovering,tag=!hovering1,tag=!hovering0,tag=!aerialfaithplate_base,limit=1,sort=nearest] {Motion:[0d,1.725d,-5d]}
 execute as @e[type=armor_stand,tag=aerialfaithplate,tag=activated,tag=S,tag=ver5,tag=hor5] at @s positioned ~ ~1 ~ run data merge entity @e[type=!player,type=!area_effect_cloud,distance=..1,tag=!aerialfaithplate,tag=!hovering,tag=!hovering1,tag=!hovering0,tag=!aerialfaithplate_base,limit=1,sort=nearest] {Motion:[0d,2d,-5d]}
 
-
-
-
-
-
-
 execute as @e[type=armor_stand,tag=aerialfaithplate,tag=idle,scores={animationtime=14}] at @s run playsound minecraft:heavy_metal_stop1 ambient @a ~ ~ ~ 5
-
-
 
 execute as @e[type=armor_stand,tag=aerialfaithplate,tag=idle] at @s run tag @s remove activated
 execute as @e[type=armor_stand,tag=aerialfaithplate,tag=idle] at @s run tag @s remove idle
-
 
 execute as @e[type=armor_stand,tag=aerialfaithplate,tag=!activated] at @s positioned ~ ~1 ~ if score shift_stop config matches 1 if entity @e[tag=!aerialfaithplate,tag=!aerialfaithplate_base,tag=!tpignore,tag=!hoverignore,tag=!hovering,tag=!hovering1,tag=!hovering0,distance=..1] unless entity @p[distance=..1,scores={shift=1..}] run tag @s add activated
 
 execute as @e[type=armor_stand,tag=aerialfaithplate,tag=!activated] at @s positioned ~ ~1 ~ if score shift_stop config matches 0 if entity @e[tag=!aerialfaithplate,tag=!aerialfaithplate_base,tag=!tpignore,tag=!hoverignore,tag=!hovering,tag=!hovering1,tag=!hovering0,distance=..1] run tag @s add activated
 
-
-
 execute as @e[type=minecraft:armor_stand,tag=aerialfaithplate,tag=activated] at @s unless block ~ ~ ~ minecraft:redstone_wire[power=0] if block ~ ~ ~ minecraft:redstone_wire run tag @s remove activated
 execute as @e[type=minecraft:armor_stand,tag=aerialfaithplate,tag=activated] at @s if block ~ ~ ~ minecraft:redstone_block run tag @s remove activated
 
+execute as @e[type=armor_stand,tag=aerialfaithplate,tag=activated,tag=!hor0] at @s positioned ~ ~1 ~ if entity @p[distance=..1] unless entity @e[type=armor_stand,tag=aerialfaithplate_patcher_1] run summon armor_stand ~ ~1 ~ {Silent:1b,Invisible:0b,Invulnerable:1b,NoBasePlate:1b,NoGravity:0b,ArmorItems:[{},{},{},{}],Tags:["aerialfaithplate_patcher_1","hoverignore"],DisabledSlots:2037535}
+execute as @e[type=armor_stand,tag=aerialfaithplate,tag=activated,tag=!hor0] at @s positioned ~ ~1 ~ if entity @p[distance=..1] unless entity @e[type=armor_stand,tag=aerialfaithplate_patcher_2] unless entity @e[type=armor_stand,tag=aerialfaithplate_patcher_1] if entity @e[type=armor_stand,tag=aerialfaithplate_patcher_1,distance=..2] run summon armor_stand ~ ~1 ~ {Silent:1b,Invisible:0b,Invulnerable:1b,NoBasePlate:1b,NoGravity:0b,ArmorItems:[{},{},{},{}],Tags:["aerialfaithplate_patcher_2","hoverignore"],DisabledSlots:2037535}
+execute as @e[type=armor_stand,tag=aerialfaithplate,tag=activated,tag=!hor0] at @s positioned ~ ~1 ~ if entity @p[distance=..1] unless entity @e[type=armor_stand,tag=aerialfaithplate_patcher_3] unless entity @e[type=armor_stand,tag=aerialfaithplate_patcher_2] if entity @e[type=armor_stand,tag=aerialfaithplate_patcher_2,distance=..2] run summon armor_stand ~ ~1 ~ {Silent:1b,Invisible:0b,Invulnerable:1b,NoBasePlate:1b,NoGravity:0b,ArmorItems:[{},{},{},{}],Tags:["aerialfaithplate_patcher_3","hoverignore"],DisabledSlots:2037535}
 
-execute as @e[type=armor_stand,tag=aerialfaithplate,tag=activated,tag=!hor0] at @s positioned ~ ~1 ~ if entity @p[distance=..1] unless entity @e[type=armor_stand,tag=aerialfaithplate_patcher_1] run summon armor_stand ~ ~1 ~ {ScfdhowParticles:0b,Silent:1,Invisible:0b,Invulnerable:1b,PersistenceRequired:1b,NoBasePlate:1b,NoGravity:0b,ArmorItems:[{},{},{},{}],Tags:["aerialfaithplate_patcher_1","hoverignore"],DisabledSlots:2037535}
-execute as @e[type=armor_stand,tag=aerialfaithplate,tag=activated,tag=!hor0] at @s positioned ~ ~1 ~ if entity @p[distance=..1] unless entity @e[type=armor_stand,tag=aerialfaithplate_patcher_2] unless entity @e[type=armor_stand,tag=aerialfaithplate_patcher_1] if entity @e[type=armor_stand,tag=aerialfaithplate_patcher_1,distance=..2] run summon armor_stand ~ ~1 ~ {ShowParticles:0b,Silent:1,Invisible:0b,Invulnerable:1b,PersistenceRequired:1b,NoBasePlate:1b,NoGravity:0b,ArmorItems:[{},{},{},{}],Tags:["aerialfaithplate_patcher_2","hoverignore"],DisabledSlots:2037535}
-execute as @e[type=armor_stand,tag=aerialfaithplate,tag=activated,tag=!hor0] at @s positioned ~ ~1 ~ if entity @p[distance=..1] unless entity @e[type=armor_stand,tag=aerialfaithplate_patcher_3] unless entity @e[type=armor_stand,tag=aerialfaithplate_patcher_2] if entity @e[type=armor_stand,tag=aerialfaithplate_patcher_2,distance=..2] run summon armor_stand ~ ~1 ~ {ShowParticles:0b,Silent:1,Invisible:0b,Invulnerable:1b,PersistenceRequired:1b,NoBasePlate:1b,NoGravity:0b,ArmorItems:[{},{},{},{}],Tags:["aerialfaithplate_patcher_3","hoverignore"],DisabledSlots:2037535}
-
-#execute as @e[type=armor_stand,tag=aerialfaithplate,tag=activated,tag=hor0] at @s positioned ~ ~1 ~ if entity @p[distance=..1] unless entity @e[type=armor_stand,tag=aerialfaithplate_patcher_1] run summon armor_stand ~ ~1 ~ {ScfdhowParticles:0b,Silent:1,Invisible:0b,Invulnerable:1b,PersistenceRequired:1b,NoBasePlate:1b,NoGravity:0b,ArmorItems:[{},{},{},{}],Tags:["aerialfaithplate_patcher_1","hoverignore","wfd"],DisabledSlots:2037535}
-#execute as @e[type=armor_stand,tag=aerialfaithplate,tag=activated,tag=hor0] at @s positioned ~ ~1 ~ if entity @p[distance=..1] unless entity @e[type=armor_stand,tag=aerialfaithplate_patcher_2] unless entity @e[type=armor_stand,tag=aerialfaithplate_patcher_1] if entity @e[type=armor_stand,tag=aerialfaithplate_patcher_1,distance=..2] run summon armor_stand ~ ~1 ~ {ShowParticles:0b,Silent:1,Invisible:0b,Invulnerable:1b,PersistenceRequired:1b,NoBasePlate:1b,NoGravity:0b,ArmorItems:[{},{},{},{}],Tags:["aerialfaithplate_patcher_2","hoverignore","wfd"],DisabledSlots:2037535}
-#execute as @e[type=armor_stand,tag=aerialfaithplate,tag=activated,tag=hor0] at @s positioned ~ ~1 ~ if entity @p[distance=..1] unless entity @e[type=armor_stand,tag=aerialfaithplate_patcher_3] unless entity @e[type=armor_stand,tag=aerialfaithplate_patcher_2] if entity @e[type=armor_stand,tag=aerialfaithplate_patcher_2,distance=..2] run summon armor_stand ~ ~1 ~ {ShowParticles:0b,Silent:1,Invisible:0b,Invulnerable:1b,PersistenceRequired:1b,NoBasePlate:1b,NoGravity:0b,ArmorItems:[{},{},{},{}],Tags:["aerialfaithplate_patcher_3","hoverignore","wfd"],DisabledSlots:2037535}
-
-
+#execute as @e[type=armor_stand,tag=aerialfaithplate,tag=activated,tag=hor0] at @s positioned ~ ~1 ~ if entity @p[distance=..1] unless entity @e[type=armor_stand,tag=aerialfaithplate_patcher_1] run summon armor_stand ~ ~1 ~ {ScfdhowParticles:0b,Silent:1,Invisible:0b,Invulnerable:1b,NoBasePlate:1b,NoGravity:0b,ArmorItems:[{},{},{},{}],Tags:["aerialfaithplate_patcher_1","hoverignore","wfd"],DisabledSlots:2037535}
+#execute as @e[type=armor_stand,tag=aerialfaithplate,tag=activated,tag=hor0] at @s positioned ~ ~1 ~ if entity @p[distance=..1] unless entity @e[type=armor_stand,tag=aerialfaithplate_patcher_2] unless entity @e[type=armor_stand,tag=aerialfaithplate_patcher_1] if entity @e[type=armor_stand,tag=aerialfaithplate_patcher_1,distance=..2] run summon armor_stand ~ ~1 ~ {ShowParticles:0b,Silent:1,Invisible:0b,Invulnerable:1b,NoBasePlate:1b,NoGravity:0b,ArmorItems:[{},{},{},{}],Tags:["aerialfaithplate_patcher_2","hoverignore","wfd"],DisabledSlots:2037535}
+#execute as @e[type=armor_stand,tag=aerialfaithplate,tag=activated,tag=hor0] at @s positioned ~ ~1 ~ if entity @p[distance=..1] unless entity @e[type=armor_stand,tag=aerialfaithplate_patcher_3] unless entity @e[type=armor_stand,tag=aerialfaithplate_patcher_2] if entity @e[type=armor_stand,tag=aerialfaithplate_patcher_2,distance=..2] run summon armor_stand ~ ~1 ~ {ShowParticles:0b,Silent:1,Invisible:0b,Invulnerable:1b,NoBasePlate:1b,NoGravity:0b,ArmorItems:[{},{},{},{}],Tags:["aerialfaithplate_patcher_3","hoverignore","wfd"],DisabledSlots:2037535}
 
 execute as @e[type=armor_stand,tag=aerialfaithplate_patcher_1] at @s unless block ~ ~-0.1 ~ minecraft:air run effect clear @p[tag=afp1] minecraft:levitation
 execute as @e[type=armor_stand,tag=aerialfaithplate_patcher_2] at @s unless block ~ ~-0.1 ~ minecraft:air run effect clear @p[tag=afp2] minecraft:levitation
@@ -195,11 +178,7 @@ execute as @e[type=armor_stand,tag=aerialfaithplate_patcher_1,limit=1] at @s unl
 execute as @e[type=armor_stand,tag=aerialfaithplate_patcher_2,limit=1] at @s unless entity @p[tag=afp2] run tag @p add afp2
 execute as @e[type=armor_stand,tag=aerialfaithplate_patcher_3,limit=1] at @s unless entity @p[tag=afp3] run tag @p add afp3
 
-
-
-
 execute as @e[type=minecraft:armor_stand,tag=aerialfaithplate,tag=activated] at @s unless entity @s[scores={animationtime=0..}] run scoreboard players set @s animationtime 15
-
 
 execute as @e[type=minecraft:armor_stand,tag=aerialfaithplate_base] at @s if block ^ ^1 ^ air run kill @s
 execute as @e[type=minecraft:armor_stand,tag=aerialfaithplate_base,tag=S] at @s if block ^ ^1 ^-1 air run kill @s
@@ -210,9 +189,6 @@ execute as @e[type=minecraft:armor_stand,tag=aerialfaithplate_base,tag=W] at @s 
 execute as @e[type=minecraft:armor_stand,tag=aerialfaithplate] at @s unless entity @e[type=minecraft:armor_stand,tag=aerialfaithplate_base,distance=..2] run kill @s
 
 
-
-
-
 execute as @e[type=armor_stand,tag=aerialfaithplate_patcher_1,limit=1] at @s run tp @p[tag=afp1] ^ ^0.1 ^
 execute as @e[type=armor_stand,tag=aerialfaithplate_patcher_1,limit=1] at @s run tp @p[tag=afp2] ^ ^0.1 ^
 execute as @e[type=armor_stand,tag=aerialfaithplate_patcher_1,limit=1] at @s run tp @p[tag=afp3] ^ ^0.1 ^
@@ -221,11 +197,5 @@ effect give @a[tag=afp2] minecraft:levitation 2 255 true
 effect give @a[tag=afp3] minecraft:levitation 2 255 true
 
 
-
 execute as @e[type=armor_stand,tag=aerialfaithplate,scores={animationtime=15}] at @s run tp @s ~ ~1 ~
 execute as @e[type=armor_stand,tag=aerialfaithplate,tag=activated] at @s run tag @s add idle
-
-
-
-
-

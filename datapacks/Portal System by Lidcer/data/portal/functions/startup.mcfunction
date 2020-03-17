@@ -43,5 +43,5 @@ execute unless score co-op config matches 0..2 run scoreboard players set co-op 
 execute unless score player_only config matches 0..2 run scoreboard players set player_only config 1
 execute unless score first_appearance config matches 0..2 run scoreboard players set first_appearance config 1
 
-execute if score first_appearance config matches 1 run tellraw @a ["",{"text":"Loaded PortalSystem Beta v0.1.4 DEV by "},{"text":"Lidcer","color":"blue"},{"text":" "},{"text":"[HELP]","clickEvent":{"action":"run_command","value":"/function help:help"},"hoverEvent":{"action":"show_text","value":"/function help:help"}}]
-execute if score first_appearance config matches 0 run tellraw @a ["",{"text":"Loaded PortalSystem Beta v0.1.4 DEV by "},{"text":"Lidcer","color":"blue"}]
+execute if score first_appearance config matches 1 run tellraw @a ["",{"text":"Loaded PortalSystem Beta v0.1.5 DEV by "},{"text":"Lidcer","color":"blue"},{"text":" "},{"text":"[HELP]","clickEvent":{"action":"run_command","value":"/function help:help"},"hoverEvent":{"action":"show_text","value":"/function help:help"}}]
+execute if score first_appearance config matches 0 run tellraw @a ["",{"text":"Loaded PortalSystem Beta v0.1.5 DEV by "},{"text":"Lidcer","color":"blue"}]
