@@ -11,7 +11,7 @@ The map Mapmaker tool:
 It is known that the Mapmaker tool can slow the game down. That's why is disabled by default. You have to manually enable in settings. This is also in development. 
 
 ## How to install
-Download mineshaft 1.13.
+Download minecraft 1.13
 move/copy content from resourcepack folder to resourcepack folder where your Minecraft is installed 
 Windows `C:\Users\%username%\AppData\Roaming\.minecraft\resourcepacks`
 
